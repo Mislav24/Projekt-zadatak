@@ -3,6 +3,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import AppBar from 'material-ui/AppBar'
 import {List, ListItem} from 'material-ui/List'
 import RaisedButton from 'material-ui/RaisedButton'
+
 export class Confirm extends Component {
     continue = e => {
         e.preventDefault();
